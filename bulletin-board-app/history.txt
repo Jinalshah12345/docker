@@ -1,0 +1,22 @@
+    1  docker --version
+    2  docker run hello-world
+    3  sudo docker run hello-world
+    4  docker image ls
+    5  sudo docker image ls
+    6  git clone https://github.com/dockersamples/node-bulletin-board
+    7  cd node-bulletin-board/bulletin-board-app
+    8  sudo usermod -a -G docker $USER
+    9  exit
+   10  cd node-bulletin-board/
+   11  cd bulletin-board-app/
+   12  history
+   13  git remote remove origin
+   14  git remote -v
+   15  git remote add origin https://github.com/Jinalshah12345/docker.git
+   16  git remote -v
+   17  git add .
+   18  git commit -m "cloned push"
+   19  git push origin master
+   20  git pull origin master --allow-unrelated-histories
+   21  git push origin master
+   22  history > history.txt
